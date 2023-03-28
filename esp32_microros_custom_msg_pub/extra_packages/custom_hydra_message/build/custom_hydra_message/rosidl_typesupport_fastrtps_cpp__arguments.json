@@ -1,0 +1,19 @@
+{
+  "package_name": "custom_hydra_message",
+  "output_dir": "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_typesupport_fastrtps_cpp/custom_hydra_message",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_adapter/custom_hydra_message:msg/RCChannelMessage.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_adapter/custom_hydra_message/msg/RCChannelMessage.idl"
+  ]
+}

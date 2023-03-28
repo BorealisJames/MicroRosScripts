@@ -1,0 +1,226 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/alienware-x14/.platformio/penv/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/alienware-x14/.platformio/penv/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/alienware-x14/.platformio/penv/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_generator_c>;$<BUILD_INTERFACE:/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_typesupport_introspection_cpp>;/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_generator_c;/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/build/custom_hydra_message
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_custom_hydra_message
+running egg_info
+creating custom_hydra_message.egg-info
+writing custom_hydra_message.egg-info/PKG-INFO
+writing dependency_links to custom_hydra_message.egg-info/dependency_links.txt
+writing top-level names to custom_hydra_message.egg-info/top_level.txt
+writing manifest file 'custom_hydra_message.egg-info/SOURCES.txt'
+reading manifest file 'custom_hydra_message.egg-info/SOURCES.txt'
+writing manifest file 'custom_hydra_message.egg-info/SOURCES.txt'
+[  6%] Built target custom_hydra_message__cpp
+[  9%] [32mBuilding C object CMakeFiles/custom_hydra_message__rosidl_generator_c.dir/rosidl_generator_c/custom_hydra_message/msg/detail/rc_channel_message__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] Built target ament_cmake_python_build_custom_hydra_message_egg
+[ 22%] [32m[1mLinking C shared library libcustom_hydra_message__rosidl_generator_c.so[0m
+[ 22%] Built target custom_hydra_message__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/custom_hydra_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_hydra_message/msg/rc_channel_message__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/custom_hydra_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_hydra_message/msg/detail/dds_fastrtps/rc_channel_message__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/custom_hydra_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_hydra_message/msg/detail/rc_channel_message__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/custom_hydra_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_hydra_message/msg/rc_channel_message__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/custom_hydra_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_hydra_message/msg/detail/rc_channel_message__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/custom_hydra_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_hydra_message/msg/detail/rc_channel_message__type_support_c.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libcustom_hydra_message__rosidl_typesupport_c.so[0m
+[ 58%] [32m[1mLinking C shared library libcustom_hydra_message__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target custom_hydra_message__rosidl_typesupport_c
+[ 58%] Built target custom_hydra_message__rosidl_typesupport_introspection_c
+[ 61%] [32m[1mLinking CXX shared library libcustom_hydra_message__rosidl_typesupport_cpp.so[0m
+[ 61%] Built target custom_hydra_message__rosidl_typesupport_cpp
+[ 64%] [32m[1mLinking CXX shared library libcustom_hydra_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libcustom_hydra_message__rosidl_typesupport_introspection_cpp.so[0m
+[ 70%] [32m[1mLinking CXX shared library libcustom_hydra_message__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target custom_hydra_message__rosidl_typesupport_introspection_cpp
+[ 70%] Built target custom_hydra_message__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target custom_hydra_message__rosidl_typesupport_fastrtps_c
+[ 70%] Built target custom_hydra_message
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target custom_hydra_message__py
+[ 77%] [32mBuilding C object CMakeFiles/custom_hydra_message__rosidl_generator_py.dir/rosidl_generator_py/custom_hydra_message/msg/_rc_channel_message_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_hydra_message/libcustom_hydra_message__rosidl_generator_py.so[0m
+[ 80%] Built target custom_hydra_message__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/custom_hydra_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_hydra_message/_custom_hydra_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/custom_hydra_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_hydra_message/_custom_hydra_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/custom_hydra_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_hydra_message/_custom_hydra_message_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target custom_hydra_message__rosidl_typesupport_c__pyext
+[100%] Built target custom_hydra_message__rosidl_typesupport_introspection_c__pyext
+[100%] Built target custom_hydra_message__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/ament_index/resource_index/rosidl_interfaces/custom_hydra_message
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__struct.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__functions.c
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__functions.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__type_support.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/rc_channel_message.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/library_path.sh
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/library_path.dsv
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_generator_c.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__type_support.c
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_c.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/rc_channel_message.hpp
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__traits.hpp
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__struct.hpp
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__builder.hpp
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/dds_fastrtps
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg
+-- Up-to-date: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/include/custom_hydra_message/custom_hydra_message/msg/detail/rc_channel_message__type_support.cpp
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/pythonpath.sh
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/pythonpath.dsv
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message-0.0.0-py3.10.egg-info
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/__init__.py
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/_custom_hydra_message_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/_custom_hydra_message_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg/_rc_channel_message.py
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg/__init__.py
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg/_rc_channel_message_s.c
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/libcustom_hydra_message__rosidl_generator_py.so
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/_custom_hydra_message_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message'...
+Compiling '/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/__init__.py'...
+Listing '/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg'...
+Compiling '/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg/__init__.py'...
+Compiling '/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/msg/_rc_channel_message.py'...
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/python3.10/site-packages/custom_hydra_message/custom_hydra_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_generator_py.so
+-- Set runtime path of "/home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/lib/libcustom_hydra_message__rosidl_generator_py.so" to ""
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/msg/RCChannelMessage.idl
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/msg/RCChannelMessage.msg
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/ament_index/resource_index/package_run_dependencies/custom_hydra_message
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/ament_index/resource_index/parent_prefix_path/custom_hydra_message
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/ament_prefix_path.sh
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/ament_prefix_path.dsv
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/path.sh
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/environment/path.dsv
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/local_setup.bash
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/local_setup.sh
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/local_setup.zsh
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/local_setup.dsv
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/package.dsv
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/ament_index/resource_index/packages/custom_hydra_message
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_generator_cExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_cExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_generator_cppExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_message__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_generator_pyExport.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/export_custom_hydra_message__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_messageConfig.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/cmake/custom_hydra_messageConfig-version.cmake
+-- Installing: /home/alienware-x14/Documents/PlatformIO/Projects/airlab_monoco/esp32_microros_custom_msg_pub/extra_packages/custom_hydra_message/install/custom_hydra_message/share/custom_hydra_message/package.xml

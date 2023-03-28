@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_hydra_message/msg/RCChannelMessage.msg
+// generated code does not contain a copyright notice
+
+
+module custom_hydra_message {
+  module msg {
+    struct RCChannelMessage {
+      int16 ch_1;
+
+      int16 ch_2;
+
+      int16 ch_3;
+
+      int16 ch_4;
+
+      int16 ch_5;
+
+      int16 ch_6;
+    };
+  };
+};
